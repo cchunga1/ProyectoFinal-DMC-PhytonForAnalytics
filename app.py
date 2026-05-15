@@ -15,7 +15,8 @@ class DataAnalyzer:
     def __init__(self, dataframe):
         # df_data: Variable tipo DataFrame que almacena los datos tabulares del CSV cargado
         self.df_data = dataframe
-   # Esta funcion clasificar_variables es para el Item 2 dentro del Módulo 3 : Análisis de EDA
+   
+    # Esta funcion clasificar_variables es para el Item 2 dentro del Módulo 3 : Análisis de EDA - cc
     def clasificar_variables(self):
         """Retorna columnas numéricas y categóricas."""
         # lst_num_cols: Lista de cadenas de texto con los nombres de las columnas numéricas (int, float)
@@ -28,7 +29,7 @@ class DataAnalyzer:
 
     def obtener_estadisticas(self):
         """Retorna estadísticas descriptivas del dataset."""
-        # df_stats: DataFrame que contiene el resumen de las métricas estadísticas
+        # df_stats: DataFrame que contiene el resumen de las métricas estadísticas . Dataframe ya me trae la media , mediana y dispersión. Otra opcion era una usar statistics.mean(datos), statistics.median(datos), statistics.mode(datos)
         df_stats = self.df_data.describe()
         return df_stats
 
