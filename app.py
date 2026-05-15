@@ -239,6 +239,7 @@ def mostrar_eda():
             st.success("No se encontraron variables con valores nulos pendientes.")
 
     with tab5:
+        #Primero clasifico las variables para que el Selectbox solo tome las numéricas y no las de datos cadena
         st.header("Ítem 5: Distribución de variables numéricas")
         lst_num, _ = obj_analyzer.clasificar_variables()
         
@@ -251,7 +252,9 @@ def mostrar_eda():
         # fig_hist: Gráfico retornado por la instancia de DataAnalyzer
         fig_hist = obj_analyzer.plot_histograma(str_var_num, num_bins_slider)
         st.pyplot(fig_hist)
-
+        
+        st.write("**Interpretación Visual :** De acuerdo a como seleccione el campo de valores numericos el grafico me mostrara la cantidad de datos(Y) versus ese campo(X). Eso hace que el Histograma sea dinámico")
+    
     with tab6:
         st.header("Ítem 6: Análisis de variables categóricas")
         _, lst_cat = obj_analyzer.clasificar_variables()
