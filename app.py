@@ -101,13 +101,8 @@ def mostrar_home():
     * **URL del Proyecto : https://proyectofinal-dmc-phytonforanalytics-cc.streamlit.app/
     
     **Descripción del Proyecto:**
-    Esta plataforma simula las herramientas diarias utilizadas por una Mesa de Ayuda en una empresa de Retail, 
-    aplicando los fundamentos de programación en Python:
+    Esta plataforma simula una aplicación interactiva construida en Python usando Streamlit orientada al Análisis Exploratorio de Datos(EDA)
     
-    * **Ejercicio 1:** Control de Caja Chica para emergencias de soporte (Listas y Control de Flujo).
-    * **Ejercicio 2:** Inventario de repuestos de primera línea (NumPy y DataFrames).
-    * **Ejercicio 3:** Matriz de priorización de incidentes en tiendas (Funciones).
-    * **Ejercicio 4:** Plataforma de registro y enrutamiento de Tickets (POO y CRUD).
     """)
     
     st.markdown("### Sobre el Dataset")
