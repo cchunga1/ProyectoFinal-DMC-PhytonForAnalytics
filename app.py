@@ -71,10 +71,10 @@ def main():
     # str_menu_option: Cadena de texto que indica la pestaña seleccionada por el usuario en la barra lateral
     str_menu_option = st.sidebar.radio(
         "Menú de Navegación principal",
-        ["Módulo 1: Home", "Módulo 2: Carga del dataset", "Módulo 3: Análisis (EDA)", "Módulo 4: Conclusiones"]
+        ["Paso 1: Home", "Módulo 2: Carga del dataset", "Módulo 3: Análisis (EDA)", "Módulo 4: Conclusiones"]
     )
 
-    if str_menu_option == "Módulo 1: Home":
+    if str_menu_option == "Paso 1: Home":
         mostrar_home()
     elif str_menu_option == "Módulo 2: Carga del dataset":
         cargar_datos()
