@@ -89,7 +89,7 @@ def main():
 def mostrar_home():
     st.title("Proyecto: Análisis Exploratorio de Datos (EDA) - Telco Customer Churn")
     st.markdown("### Objetivo del Análisis")
-    st.info("El objetivo es analizar, limpiar, transformar y visualizar los datos históricos para identificar patrones asociados a la fuga (churn) de clientes, utilizando un enfoque exploratorio y visual.")
+    st.info("El objetivo es analizar, limpiar, transformar y visualizar los datos históricos para identificar patrones asociados a la fuga de clientes, utilizando un enfoque exploratorio y visual.")
     
     # st.markdown("### Datos del Autor")
     # st.write("**Nombre:** [Ingresa aquí tu Nombre Completo]")
