@@ -344,32 +344,32 @@ def mostrar_eda():
         - **custoimerID ** : Identificador único del cliente"
         - **gender ** : Género del cliente"
         - ** SeniorCitizen ** : Si el Cliente es adultoMayor"
-        -Partner - Si el Cliente tiene pareja"
-        -Dependens - Si el Cliente tiene dependientes"
-        -ternure - Meses de permanencia"        
-        -PhoneService - Si el Cliente tiene Servicio Telefónico"        
-        -MultipleLines - Si tiene mpultiples lineas"        
-        -InternetService - Tipo de servicio de Internet"        
-        -OnlyneSecurity - Si posee seguridad en linea"        
-        -OnlineBackup - Si posee respaldo en línea"   
-        -DeviceProtection - Protección del dispositivo"   
-        -TechSupport - Soporte técnico"   
-        -StreamingTV - Servicio de TV"   
-        -StreamingMovies - Servicio de películas"   
-        -Contract - Tipo de contrato"   
-        -PaperlessBilling - Facturación electrónica"   
-        -PaymentMethod - Método de pago"   
-        -MonthlyCharges - Cargo mensual"   
-        -TotalCharges - Cargo total"   
-        -Churn - Si el cliente abandonó la empresa (“Yes”/“No”"
+        - ** Partner ** : Si el Cliente tiene pareja"
+        - ** Dependens ** : Si el Cliente tiene dependientes"
+        - ** ternure ** : Meses de permanencia"        
+        - ** PhoneService ** : Si el Cliente tiene Servicio Telefónico"        
+        - ** MultipleLines ** : Si tiene mpultiples lineas"        
+        - ** InternetService ** : Tipo de servicio de Internet"        
+        - ** OnlyneSecurity ** : Si posee seguridad en linea"        
+        - ** OnlineBackup ** : Si posee respaldo en línea"   
+        - ** DeviceProtection ** : Protección del dispositivo"   
+        - ** TechSupport ** : Soporte técnico"   
+        - ** StreamingTV ** : Servicio de TV"   
+        - ** StreamingMovies ** : Servicio de películas"   
+        - ** Contract ** : Tipo de contrato"   
+        - ** PaperlessBilling ** : Facturación electrónica"   
+        - ** PaymentMethod ** : Método de pago"   
+        - ** MonthlyCharges ** : Cargo mensual"   
+        - ** TotalCharges ** : Cargo total"   
+        - ** Churn ** : Si el cliente abandonó la empresa (“Yes”/“No”"
         
-         Conceptos impoortantes : 
-                         - Media (Promedio): Suma de todos los valores dividida por el número total de datos. Se usa para describir el centro de un conjunto de datos con una distribución numérica normal y sin muchos valores atípicos.
-                         - Mediana (Valor central): Es el valor intermedio cuando los datos están ordenados. Se utiliza como medida de tendencia central cuando los datos están sesgados o tienen valores atípicos, ya que no se ve afectada por ellos.
-                         - Moda (Valor más común): Representa el valor que ocurre con mayor frecuencia en el conjunto de datos.
-                         - Desviación Estándar: Mide qué tan dispersos están los valores en relación con la media.
-                                   Baja: Los datos están cerca de la media (alta consistencia).
-                                   Alta: Los datos están muy dispersos (alta variabilidad)
+         ** Conceptos impoortantes ** : 
+                         - ** Media (Promedio) ** : Suma de todos los valores dividida por el número total de datos. Se usa para describir el centro de un conjunto de datos con una distribución numérica normal y sin muchos valores atípicos.
+                         - ** Mediana (Valor central) ** : Es el valor intermedio cuando los datos están ordenados. Se utiliza como medida de tendencia central cuando los datos están sesgados o tienen valores atípicos, ya que no se ve afectada por ellos.
+                         - ** Moda (Valor más común) ** : Representa el valor que ocurre con mayor frecuencia en el conjunto de datos.
+                         - ** Desviación Estándar ** : Mide qué tan dispersos están los valores en relación con la media.
+                                   Baja ** : Los datos están cerca de la media (alta consistencia).
+                                   Alta ** : Los datos están muy dispersos (alta variabilidad)
                     """)
         
 # ==========================================
