@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+# Importamos la librería PIL (Python Imaging Library) para cargar y manipular imágenes
+from PIL import Image
+
 
 # Configuración inicial de la página
 st.set_page_config(page_title="Análisis Exploratorio de Datos (EDA) - Telco Customer Chum", layout="wide")
