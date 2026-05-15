@@ -364,12 +364,12 @@ def mostrar_eda():
         - ** Churn ** : Si el cliente abandonó la empresa (“Yes”/“No”"
         
          ** Conceptos impoortantes : **  
-                         - ** Media (Promedio) ** : Suma de todos los valores dividida por el número total de datos. Se usa para describir el centro de un conjunto de datos con una distribución numérica normal y sin muchos valores atípicos.
-                         - ** Mediana (Valor central) ** : Es el valor intermedio cuando los datos están ordenados. Se utiliza como medida de tendencia central cuando los datos están sesgados o tienen valores atípicos, ya que no se ve afectada por ellos.
-                         - ** Moda (Valor más común) ** : Representa el valor que ocurre con mayor frecuencia en el conjunto de datos.
-                         - ** Desviación Estándar ** : Mide qué tan dispersos están los valores en relación con la media.
-                                   Baja ** : Los datos están cerca de la media (alta consistencia).
-                                   Alta ** : Los datos están muy dispersos (alta variabilidad)
+            - ** Media (Promedio) ** : Suma de todos los valores dividida por el número total de datos. Se usa para describir el centro de un conjunto de datos con una distribución numérica normal y sin muchos valores atípicos.
+            - ** Mediana (Valor central) ** : Es el valor intermedio cuando los datos están ordenados. Se utiliza como medida de tendencia central cuando los datos están sesgados o tienen valores atípicos, ya que no se ve afectada por ellos.
+            - ** Moda (Valor más común) ** : Representa el valor que ocurre con mayor frecuencia en el conjunto de datos.
+            - ** Desviación Estándar ** : Mide qué tan dispersos están los valores en relación con la media.
+                          Baja ** : Los datos están cerca de la media (alta consistencia).
+                          Alta ** : Los datos están muy dispersos (alta variabilidad)
                     """)
         
 # ==========================================
