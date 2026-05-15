@@ -179,22 +179,21 @@ def mostrar_eda():
         "8. Cat vs Cat", "9. Dinámico", "10. Hallazgos"
     ])
     
-    with tab1:
+with tab1:
         st.header("Ítem 1: Información general del dataset")
-        st.write("**Estructura de tipos de datos y uso de memoria:**")
         
-        # mod_io: Referencia a la librería estándar io, importada para capturar impresiones estándar de consola
-        import io
-        # obj_buffer: Objeto de flujo de texto utilizado para atrapar la salida del método .info() que normalmente va a la consola
-        obj_buffer = io.StringIO()
-        df_actual.info(buf=obj_buffer)
+        # df_info_custom: DataFrame creado manualmente para reemplazar el print de .info()
+        df_info_custom = pd.DataFrame({
+            'Tipo de Dato': df_actual.dtypes,
+            'Valores No Nulos': df_actual.notnull().sum(),
+            'Valores Nulos': df_actual.isnull().sum()
+        })
         
-        # str_info_text: Cadena procesada y extraída del flujo de memoria para pintarla en Streamlit
-        str_info_text = obj_buffer.getvalue()
-        st.text(str_info_text)
+        st.write("**Estructura de tipos de datos:**")
+        st.dataframe(df_info_custom)
         
-        # num_total_nulos: Sumatoria entera de todos los valores NaN en todo el DataFrame
-        num_total_nulos = df_actual.isna().sum().sum()
+        # num_total_nulos: Sumatoria global de nulos
+        num_total_nulos = df_info_custom['Valores Nulos'].sum()
         st.write(f"**Conteo total global de valores nulos:** {num_total_nulos}")
 
     with tab2:
