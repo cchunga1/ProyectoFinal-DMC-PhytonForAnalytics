@@ -173,12 +173,30 @@ def mostrar_eda():
     obj_analyzer = DataAnalyzer(df_actual)
     
     # Creación de 10 pestañas (tabs) para estructurar el análisis
-    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 , tab11 = st.tabs([
         "1. Info General", "2. Clasificación", "3. Estadísticas", "4. Nulos", 
         "5. Dist. Numéricas", "6. Dist. Categóricas", "7. Num vs Cat", 
-        "8. Cat vs Cat", "9. Dinámico", "10. Hallazgos"
+        "8. Cat vs Cat", "9. Dinámico", "10. Hallazgos", "11. Prueba"
     ])
-    
+
+    with tab11:
+        st.header("Ítem 1: Información general del dataset")
+        st.write("**Estructura de tipos de datos y uso de memoria:**")
+        
+        # mod_io: Referencia a la librería estándar io, importada para capturar impresiones estándar de consola
+        import io
+        # obj_buffer: Objeto de flujo de texto utilizado para atrapar la salida del método .info() que normalmente va a la consola
+        obj_buffer = io.StringIO()
+        df_actual.info(buf=obj_buffer)
+        
+        # str_info_text: Cadena procesada y extraída del flujo de memoria para pintarla en Streamlit
+        str_info_text = obj_buffer.getvalue()
+        st.text(str_info_text)
+        
+        # num_total_nulos: Sumatoria entera de todos los valores NaN en todo el DataFrame
+        num_total_nulos = df_actual.isna().sum().sum()
+        st.write(f"**Conteo total global de valores nulos:** {num_total_nulos}")
+
     with tab1:
         st.header("Ítem 1: Información general del dataset")
         
