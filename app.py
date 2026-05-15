@@ -340,10 +340,10 @@ def mostrar_eda():
     with tab11:
         st.markdown(""" 
 
-        ****** Diccionario de Datos x Campo : *******
-        -custoimerID - Identificador único del cliente"
-        -gender - Género del cliente"
-        -SeniorCitizen - Si el Cliente es adultoMayor"
+        ** Diccionario de Datos x Campo : **
+        - **custoimerID ** : Identificador único del cliente"
+        - **gender ** : Género del cliente"
+        - ** SeniorCitizen ** : Si el Cliente es adultoMayor"
         -Partner - Si el Cliente tiene pareja"
         -Dependens - Si el Cliente tiene dependientes"
         -ternure - Meses de permanencia"        
