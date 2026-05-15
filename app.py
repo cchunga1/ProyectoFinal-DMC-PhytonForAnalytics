@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Configuración inicial de la página
-st.set_page_config(page_title="EDA Telco Churn", layout="wide")
+st.set_page_config(page_title="Análisis Exploratorio de Datos (EDA) - Telco Customer Chum", layout="wide")
 
 # ==========================================
 # PROGRAMACIÓN ORIENTADA A OBJETOS (POO)
@@ -87,10 +87,28 @@ def mostrar_home():
     st.markdown("### Objetivo del Análisis")
     st.info("El objetivo es analizar, limpiar, transformar y visualizar los datos históricos para identificar patrones asociados a la fuga (churn) de clientes, utilizando un enfoque exploratorio y visual.")
     
-    st.markdown("### Datos del Autor")
-    st.write("**Nombre:** [Ingresa aquí tu Nombre Completo]")
-    st.write("**Especialización:** Python for Analytics")
-    st.write("**Año:** 2026")
+    # st.markdown("### Datos del Autor")
+    # st.write("**Nombre:** [Ingresa aquí tu Nombre Completo]")
+    # st.write("**Especialización:** Python for Analytics")
+    # st.write("**Año:** 2026")
+
+    st.markdown("""
+    * **Nombre:** JOSE CHRISTIAN CHUNGA MARTINEZ
+    * **Nombre del Módulo :** Módulo 2 - Python For Analytics | Especialización for Analytics
+    * **Información general del estudiante :** Ingeniero de Sistemas
+    * **Año:** 2026
+    * **Tecnologías utilizadas:** Streamlit , Pandas , Numpy , Matplotlib , Seaborn
+    * **URL del Proyecto :** https://project1app-dmc-phytoneval01-test.streamlit.app/
+    
+    **Descripción del Proyecto:**
+    Esta plataforma simula las herramientas diarias utilizadas por una Mesa de Ayuda en una empresa de Retail, 
+    aplicando los fundamentos de programación en Python:
+    
+    * **Ejercicio 1:** Control de Caja Chica para emergencias de soporte (Listas y Control de Flujo).
+    * **Ejercicio 2:** Inventario de repuestos de primera línea (NumPy y DataFrames).
+    * **Ejercicio 3:** Matriz de priorización de incidentes en tiendas (Funciones).
+    * **Ejercicio 4:** Plataforma de registro y enrutamiento de Tickets (POO y CRUD).
+    """)
     
     st.markdown("### Sobre el Dataset")
     st.write("El dataset 'TelcoCustomerChurn.csv' contiene información sobre los clientes de una empresa de telecomunicaciones, los servicios contratados, facturación mensual, tiempo de permanencia y su estado actual en la empresa.")
