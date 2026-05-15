@@ -15,7 +15,7 @@ class DataAnalyzer:
     def __init__(self, dataframe):
         # df_data: Variable tipo DataFrame que almacena los datos tabulares del CSV cargado
         self.df_data = dataframe
-
+   # Esta funcion clasificar_variables es para el Item 2 dentro del Módulo 3 : Análisis de EDA
     def clasificar_variables(self):
         """Retorna columnas numéricas y categóricas."""
         # lst_num_cols: Lista de cadenas de texto con los nombres de las columnas numéricas (int, float)
