@@ -98,7 +98,7 @@ def mostrar_home():
     * **Información general del estudiante :** Ingeniero de Sistemas
     * **Año:** 2026
     * **Tecnologías utilizadas:** Streamlit , Pandas , Numpy , Matplotlib , Seaborn
-    * **URL del Proyecto :** https://project1app-dmc-phytoneval01-test.streamlit.app/
+    * **URL del Proyecto : https://proyectofinal-dmc-phytonforanalytics-cc.streamlit.app/
     
     **Descripción del Proyecto:**
     Esta plataforma simula las herramientas diarias utilizadas por una Mesa de Ayuda en una empresa de Retail, 
