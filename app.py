@@ -253,7 +253,7 @@ def mostrar_eda():
         fig_hist = obj_analyzer.plot_histograma(str_var_num, num_bins_slider)
         st.pyplot(fig_hist)
         
-        st.write("**Interpretación Visual :** De acuerdo a como seleccione el campo de valores numericos el grafico me mostrara la cantidad de datos(Y) versus ese campo(X). Eso hace que el Histograma sea dinámico")
+        st.write("**Interpretación Visual :** De acuerdo a como seleccione el campo de valores numéricos el gráfico me mostrara la cantidad de datos(Y) versus ese campo(X). Eso hace que el Histograma sea dinámico")
     
     with tab6:
         st.header("Ítem 6: Análisis de variables categóricas")
