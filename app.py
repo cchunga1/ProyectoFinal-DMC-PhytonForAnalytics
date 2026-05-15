@@ -38,7 +38,10 @@ class DataAnalyzer:
         # fig_hist: Objeto de figura de Matplotlib que contendrá el gráfico del histograma
         # ax_hist: Eje individual de Matplotlib donde se dibujará la distribución
         fig_hist, ax_hist = plt.subplots(figsize=(8, 4))
-        sns.histplot(self.df_data[columna], bins=bins, kde=True, ax=ax_hist)
+        
+        # AQUÍ USAMOS SEABORN (sns) para dibujar el gráfico sobre el eje
+        sns.histplot(self.df_data[columna], bins=bins, kde=True, ax=ax_hist, color="steelblue")
+        
         ax_hist.set_title(f'Distribución de {columna}')
         return fig_hist
 
