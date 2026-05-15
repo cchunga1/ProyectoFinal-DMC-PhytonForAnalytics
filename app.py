@@ -279,7 +279,7 @@ def mostrar_eda():
             df_props = df_actual[str_var_cat].value_counts(normalize=True) * 100
             st.dataframe(df_props.round(2).astype(str) + ' %')
 
-    st.write("**Interpretación Visual :** De acuerdo a como seleccione el campo de valores de categorias el gráfico lo mostrara las proporciones entre el tipo de dato. Eso hace que el Histograma sea dinámico")
+        st.write("**Interpretación Visual :** De acuerdo a como seleccione el campo de valores de categorias el gráfico lo mostrara las proporciones entre el tipo de dato. Eso hace que el Histograma sea dinámico")
     
     with tab7:
         st.header("Ítem 7: Análisis bivariado (Numérico vs Categórico)")
