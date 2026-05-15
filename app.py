@@ -7,6 +7,19 @@ import seaborn as sns
 # Configuración inicial de la página
 st.set_page_config(page_title="Análisis Exploratorio de Datos (EDA) - Telco Customer Chum", layout="wide")
 
+#----------------Importación Multimedia------------------------------#
+# Cargamos la imagen del Logo de Pythom
+image1 = Image.open('LogoPython.png')
+
+#------------------------------Logo----------------------------------#
+st.sidebar.image(image1, width=150, caption='App Version 1.0')
+
+# URL Raw de GitHub
+# url_imagen = "https://github.com/cchunga1/project1Streamlit-DMC-PhytonEval01/blob/d0abb218d39f49d5a77b1263cc4cea1870558b9f/LogoPython.png"
+
+# Mostrar la imagen en la interfaz
+st.image("portal.png", use_container_width=False, width=300)
+
 # ==========================================
 # PROGRAMACIÓN ORIENTADA A OBJETOS (POO)
 # ==========================================
