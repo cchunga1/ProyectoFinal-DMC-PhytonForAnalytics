@@ -384,10 +384,13 @@ def mostrar_eda():
 # MÓDULO 4: CONCLUSIONES
 # ==========================================
 def mostrar_conclusiones():
-    st.title("Conclusiones y Recomendaciones de Negocio")
+    st.title("Conclusiones y Recomendaciones")
     st.markdown("""
-    En base a los resultados del Análisis Exploratorio de Datos, establecemos los siguientes 5 puntos orientados a la toma de decisiones estratégicas de retención:
-    
+    En base a los resultados del Análisis Exploratorio de Datos, establecemos los siguientes puntos orientados a tomar mejores decisiones:
+
+    1. Si analizamos MonthlyChanges vs Churn podemos cconcluir que aquellos Clientes cuya facturación mas alta son los que se han ido en mayor proporción. Se les podria ofrecer a esos clientes cada cierto tiempo alguna oferta que les brinde un valor agregado.
+    2. Si analizamos tenure vs Churn podemos concluir que la mayor cantidad de Clientes que se fueron son los que tienen menos de 30 meses de permanencia. Esto se valida tambien si analizamos Contract vs Churn , revisando que la mayor cantidad de Clientes 
+    que se fueron tenian contratos *Month-to-Month* . Ofrecer contratos de 1, 2 años con mayores beneficios que los mensuales para que el cliente opte por ellos.
     1. **Migración de Contratos:** Existe una severa dependencia de la fuga en aquellos contratos *Month-to-Month*. Se deben incentivar estrategias de "up-selling", ofreciendo beneficios exclusivos (como descuentos iniciales) para que migren a contratos de un año.
     2. **Fidelización por Antigüedad:** El mayor volumen de abandonos ocurre durante el periodo de "tenure" más bajo (clientes nuevos). Se requiere instaurar programas de adopción, bienvenida y encuestas de satisfacción durante los primeros tres meses.
     3. **Servicios de Adhesión (Sticky Services):** Clientes que no poseen *OnlineSecurity* o *TechSupport* son mucho más propensos a la fuga. Se recomienda empaquetar estos servicios de seguridad a bajo costo (o gratis los primeros meses) para generar dependencia y aumentar los costos de cambio.
