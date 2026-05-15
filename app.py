@@ -179,7 +179,7 @@ def mostrar_eda():
         "8. Cat vs Cat", "9. Dinámico", "10. Hallazgos"
     ])
     
-with tab1:
+    with tab1:
         st.header("Ítem 1: Información general del dataset")
         
         # df_info_custom: DataFrame creado manualmente para reemplazar el print de .info()
