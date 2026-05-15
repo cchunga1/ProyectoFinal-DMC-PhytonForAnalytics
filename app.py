@@ -234,7 +234,7 @@ def mostrar_eda():
             ax_nulos.set_title("Variables con Datos Faltantes")
             st.pyplot(fig_nulos)
             
-            st.write("**Discusión:** Los valores nulos (típicamente en TotalCharges) surgieron de cuentas con 0 meses de antigüedad (tenure). Recomendamos imputar estos valores con 0 o eliminarlos.")
+            st.write("**Discusión breve:** Los valores nulos se encuentran en el campo TotalCharges esto debido a Clientes con 0 meses de antigüedad (tenure). Recomendamos colocar valor 0 o eliminarlos porque son Clientes sin permanencia.")
         else:
             st.success("No se encontraron variables con valores nulos pendientes.")
 
