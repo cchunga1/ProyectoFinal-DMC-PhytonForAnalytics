@@ -74,13 +74,13 @@ def main():
         ["Módulo 1: Home", "Módulo 2: Carga del dataset", "Módulo 3: Análisis (EDA)", "Módulo 4: Conclusiones"]
     )
 
-    if str_menu_option == "Módulo 1: Home":
+    if str_menu_option == "Paso 1: Home":
         mostrar_home()
-    elif str_menu_option == "Módulo 2: Carga del dataset":
+    elif str_menu_option == "Paso 2: Carga del dataset (Es necesario para el Paso 3 y Paso 4)":
         cargar_datos()
-    elif str_menu_option == "Módulo 3: Análisis (EDA)":
+    elif str_menu_option == "Paso 3: Análisis (EDA)":
         mostrar_eda()
-    elif str_menu_option == "Módulo 4: Conclusiones":
+    elif str_menu_option == "Paso 4: Conclusiones":
         mostrar_conclusiones()
 
 # ==========================================
