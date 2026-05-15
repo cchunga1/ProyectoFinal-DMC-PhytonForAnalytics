@@ -340,7 +340,27 @@ def mostrar_eda():
     with tab11:
         st.header("Diccionario de Datos")
         st.write("**Diccionario de Datos x Campo : **")
-        
+        st.write("custoimerID - Identificador único del cliente")
+        st.write("gender - Género del cliente")
+        st.write("SeniorCitizen - Si el Cliente es adultoMayor")
+        st.write("Partner - Si el Cliente tiene pareja")
+        st.write("Dependens - Si el Cliente tiene dependientes")
+        st.write("ternure - Meses de permanencia")        
+        st.write("PhoneService - Si el Cliente tiene Servicio Telefónico")        
+        st.write("MultipleLines - Si tiene mpultiples lineas")        
+        st.write("InternetService - Tipo de servicio de Internet")        
+        st.write("OnlyneSecurity - Si posee seguridad en linea")        
+        st.write("OnlineBackup - Si posee respaldo en línea")   
+        st.write("DeviceProtection - Protección del dispositivo")   
+        st.write("TechSupport - Soporte técnico")   
+        st.write("StreamingTV - Servicio de TV")   
+        st.write("StreamingMovies - Servicio de películas")   
+        st.write("Contract - Tipo de contrato")   
+        st.write("PaperlessBilling - Facturación electrónica")   
+        st.write("PaymentMethod - Método de pago")   
+        st.write("MonthlyCharges - Cargo mensual")   
+        st.write("TotalCharges - Cargo total")   
+        st.write("Churn - Si el cliente abandonó la empresa (“Yes”/“No”)")   
 
 # ==========================================
 # MÓDULO 4: CONCLUSIONES
